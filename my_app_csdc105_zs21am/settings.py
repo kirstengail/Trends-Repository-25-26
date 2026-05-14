@@ -76,7 +76,9 @@ WSGI_APPLICATION = "my_app_csdc105_zs21am.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": 'test1',
+        'USER': 'Member',
+        'PASSWORD': 'member',
     }
 }
 
